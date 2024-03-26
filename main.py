@@ -8,5 +8,11 @@ Daha sonra bir dosyada öğrenci ve öğretmen classlarını import ederek bir l
 Classlarımız içerisinde self keywordü kullanalım. Class içi fonksiyonlarda içerideki propertylerden yararlanalım.
 
 
+
+
+
+
+Bir öğrenci bilgi sistemi oluşturun. Öğrencilerin notlarını, katılım durumlarını ve diğer akademik bilgilerini saklamak için bir sınıf oluşturun.
+vize final => ortalama hesabını + kanaat notu => öğretmende tutalım
 """
 
