@@ -4,12 +4,12 @@ from teacher import Teacher
 studentList = []
 teacherList = []
 
-student1 = Student("Büşra, 25")
-student2 = Student ("Sümeyye, 25")
+student1 = Student("Büşra", 25)
+student2 = Student ("Sümeyye", 25)
 
 
-teacher1 = Teacher ("Neşe","math")
-teacher2 = Teacher ("Selin","art")
+teacher1 = Teacher("Neşe",25 ,"Math")
+teacher2 = Teacher("Selin",29,"Art")
 
 
 def add(type,obj):
@@ -23,7 +23,7 @@ def add(type,obj):
 def getAll(type):  
     if type == "teacher":
         for teacher in teacherList:
-            print(teacher.name)
+            print(teacher.name, teacher.age)
     else:
         for student in studentList:
             print(student.name)
